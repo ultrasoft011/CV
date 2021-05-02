@@ -10,7 +10,24 @@ body {
 header {
     font-weight: bold;
     color: rgb(0, 0, 0);
+
 }
+
+.box-container {
+    height: auto;
+}
+
+.box__gray {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 260px;
+    background-color: #ececec;
+    z-index: -1;
+    width: 81%;
+    height: 90%;
+}
+
 
 .nav-item-project {
     margin-left: 21%;
@@ -18,7 +35,7 @@ header {
 }
 
 .row__name {
-    margin-left: 6rem;
+    margin-left: 5rem;
 }
 
 .row__name h1 {
@@ -27,17 +44,19 @@ header {
 }
 
 .row__description {
+    border-left: 3px solid #9c9c9c;
     padding-top: 5rem;
 
 }
 .row__description p {
+    padding-left: 2.5rem;
     font-size: 1rem;
 }
 
 .horizontal__list {
     display: flex;
     justify-content: flex-start;
-    padding: 0;
+    padding-left: 2.5rem;
 }
 
 .horizontal__list li {
