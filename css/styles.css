@@ -104,6 +104,22 @@ li {
 }
 
 .projects {
+    padding: 50px 30px 10px 65px;
+}
+
+.projects__sample {
     padding-top: 50px;
-    padding-left: 65px;
+}
+.projects__text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9c9c9c;
+}
+
+.w-100 {
+    padding-bottom: 40px;
+}
+
+img {
+    border: 1px solid rgb(109, 109, 109);
 }
