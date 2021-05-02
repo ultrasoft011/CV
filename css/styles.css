@@ -1,5 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 body {
@@ -14,4 +15,32 @@ header {
 .nav-item-project {
     margin-left: 21%;
     margin-right: 21%;
+}
+
+.row__name {
+    margin-left: 6rem;
+}
+
+.row__name h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.row__description {
+    padding-top: 5rem;
+
+}
+.row__description p {
+    font-size: 1rem;
+}
+
+.horizontal__list {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.horizontal__list li {
+    list-style: none;
+    padding-right: 1.5rem;
 }
